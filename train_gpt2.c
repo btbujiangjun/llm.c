@@ -620,8 +620,8 @@ typedef struct {
     float* lnf; // (B, T, C)
     float* lnf_mean; // (B, T)
     float* lnf_rstd; // (B, T)
-    float* logits; // (B, T, V)
-    float* probs; // (B, T, V)
+    float* logits; // (B, T, Vp)
+    float* probs; // (B, T, Vp)
     float* losses; // (B, T)
 } ActivationTensors;
 
